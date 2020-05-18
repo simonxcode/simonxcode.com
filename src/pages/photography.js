@@ -1,14 +1,13 @@
 import React from 'react'
-import Footer from '../components/footer'
-import Header from '../components/header'
+import Layout from '../components/layout'
 
 const PhotographyPage = () => {
   return (
     <div>
-      <Header />
-      <h1>Photography</h1>
-      <p>Bits and peices of my photos</p> 
-      <Footer />
+      <Layout>
+        <h1>Photography</h1>
+        <p>Bits and peices of my photos</p> 
+      </Layout>
   </div>
   )
 }
