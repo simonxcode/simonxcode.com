@@ -1,5 +1,16 @@
-.header {
+.brand {
   padding: 1rem 0 3rem;
+}
+
+.nav-item {
+  color: #636e72;
+  font-size: .9rem;
+  text-decoration: none;
+}
+
+.nav-list {
+  list-style-type: none;
+  margin: 0;
 }
 
 .title {
@@ -7,8 +18,3 @@
   font-size: 3rem;
   text-decoration: none;
 }
-
-.link {
-  color: #636e72;
-}
-
