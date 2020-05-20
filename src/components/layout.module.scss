@@ -8,5 +8,10 @@
 }
 
 .content {
-  flex-grow: 1
+  flex-grow: 1; 
 }
+
+.content:visited {
+  color: #636e72;
+}
+
