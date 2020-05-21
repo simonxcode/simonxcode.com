@@ -6,12 +6,14 @@ import layoutStyle from './layout.module.scss'
 
 const Layout = (props) => {
   return (
-    <div className={layoutStyle.container}>
-      <div className={layoutStyle.content}>
+    <div>
+       <div className={layoutStyle.sidebar}>
         <Header />
+        <Footer />
+        </div>
+      <div className={layoutStyle.content}>
         {props.children}
       </div>
-      <Footer />
     </div>
   )
 }

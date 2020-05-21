@@ -1,17 +1,18 @@
-.container {
-  margin: 0 auto;
-  max-width: 750px;
-  padding: 1rem; 
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
+.sidebar {
+  position: fixed;
+  padding: 1rem;
+  height: 100%;
+  width: 200px;
+  background: #4a4e50;
 }
 
 .content {
-  flex-grow: 1; 
+  flex-grow: 1;
+  margin-left: 200px;
+  width: auto;
+  padding: 3rem;
+  overflow: auto;
+  z-index: 1;
 }
 
-.content:visited {
-  color: #636e72;
-}
 
