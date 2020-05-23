@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import Layout from '../components/layout'
-import visitedLinks from '../components/layout.module.scss'
 
 const AboutPage = () => {
   return (
