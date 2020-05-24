@@ -14,7 +14,7 @@ const ProjectPage = () => {
           <p>A score tracker where the first player matching the game score is the winner.
           </p>
           <p>This app was built with React, Redux and styled with Sass.</p>
-          <a><p>Repository</p></a>
+          <a href="https://github.com/simonxcode/scoreKeeper-redux" target="_blank">Repository</a>
           <a><p>Image of Project</p></a>
         </div>
         <div>
@@ -23,7 +23,7 @@ const ProjectPage = () => {
           A social medial platform where users can create and share a dialogue. 
           </p>
           <p>This app was built with JavaScript, Node, Express, MongoDB and styled with CSS</p>
-          <a><p>Repository</p></a>
+          <a href="https://github.com/chingu-voyage5/Geckos-Team-16" target="_blank">Repository</a>
           <a><p>Image of Project</p></a>
         </div>
         <div>
@@ -32,7 +32,7 @@ const ProjectPage = () => {
           A recipe finder that will help generate ideas for your next meal. 
           </p>
           <p>This application with build with Vue, VueX, Vuetify and utilized a 3rd party API.</p>
-          <a><p>Repository</p></a>
+          <a href="https://github.com/chingu-voyages/v8-geckos-team-11" target="_blank">Repository</a>
           <a><p>Image of Project</p></a>
         </div>
         <div>
@@ -41,7 +41,7 @@ const ProjectPage = () => {
           The classic paper-and-pencil game where players have to match 3 in-a-row to win.
           </p>
           <p>This application was built with React and styled with Material-UI</p>
-          <a><p>Repository</p></a>
+          <a href="https://github.com/simonxcode/tictactoe-react">Repository</a>
           <a><p>Image of Project</p></a>
         </div>
         
