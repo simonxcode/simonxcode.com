@@ -6,7 +6,7 @@ const Footer = () => {
   const data = useStaticQuery(graphql`
     query {
       site {
-        siteMetaData {
+        siteMetadata {
           author
         }
       }
@@ -14,7 +14,7 @@ const Footer = () => {
   `) 
   return (
     <div className={footerStyle.footer}>
-      <p>{data.site.siteMetaData.author} © 2020</p>
+      <p>{data.site.siteMetadata.author} © 2020</p>
     </div>
   )
 }

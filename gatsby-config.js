@@ -6,7 +6,7 @@
 
 module.exports = {
   /* Your site config here */
-  siteMetaData: {
+  siteMetadata: {
     title: 'simonxcode',
     author: 'simonxcode'
   },
