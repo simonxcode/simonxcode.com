@@ -8,7 +8,7 @@ module.exports = {
   /* Your site config here */
   siteMetaData: {
     title: 'simonxcode',
-    author: 'Simon Xiong'
+    author: 'simonxcode'
   },
   plugins: [
     'gatsby-plugin-sass'
