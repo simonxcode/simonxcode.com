@@ -1,14 +1,17 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import Layout from '../components/layout'
+import indexStyle from './index.module.scss'
 
 const HomePage = () => {
   return (
     <div> 
       <Layout>
-        <h1>Hello.</h1>
-        <h2>I'm Simon, a full-stack developer living in beautiful Los Angeles.</h2>
-        <p>Need a developer?</p><Link to="/contact">contact me</Link>
+        <div className={indexStyle.content}>
+          <p className={indexStyle.greeting}>Hello, I'm Simon</p>
+          <h1>I like to help build impactful solutions for humans and companies</h1>
+          <p> Feel free to checkout my <Link to="/portfolio">portfolio</Link> to see my latest work.</p>
+        </div>
       </Layout>
     </div>
   )
