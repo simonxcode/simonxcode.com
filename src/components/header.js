@@ -19,6 +19,7 @@ const Header = () => {
           {data.site.siteMetadata.title}
           <p className={headerStyles.tagline}>always a student</p>
           <p className={headerStyles.tagline}>each on teach one</p>
+          <p className={headerStyles.tagline}>#100DaysOfCode</p>
         </Link>
         </h1>
       <nav>
