@@ -27,10 +27,10 @@ const Blog = () => {
     <div>
       <Layout>
         <h1>Blog</h1>
-        <ol>
+        <ol className={blogStyle.posts}>
           {data.allMarkdownRemark.edges.map((edge) => {
             return (
-              <li>
+              <li className={blogStyle.post}>
                 <Link to={`/blog/${edge.node.fields.slug}`}>
                   <h2>{edge.node.frontmatter.title}</h2>
                   <p>{edge.node.frontmatter.date}</p>
