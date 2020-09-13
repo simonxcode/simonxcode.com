@@ -1,12 +1,13 @@
 import React from 'react'
 import Layout from '../components/layout'
 import portfolioStyle from "./portfolio.module.scss"
+import Head from '../components/head'
 
 const ProjectPage = () => {
   return (
     <div>
       <Layout>
-        <p>PORTFOLIO</p>
+        <Head title="portfolio"/>
         <h1>Feature Projects</h1>
         <h2>Here are some projects I recently worked on.</h2>
         <hr />
