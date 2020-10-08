@@ -3,6 +3,7 @@
  *
  * See: https://www.gatsbyjs.org/docs/gatsby-config/
  */
+// const path = require(`path`)
 
 module.exports = {
   /* Your site config here */
@@ -13,7 +14,17 @@ module.exports = {
   plugins: [
     'gatsby-plugin-react-helmet',
     {
-      resolve: `gatsby-source-contentful`,
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: `${__dirname}/src/images`,
+      },
+    },
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
+
+    {
+      resolve: 'gatsby-source-contentful',
       options: {
         spaceId: process.env.CONTENTFUL_SPACE_ID,
         accessToken: process.env.CONTENTFUL_ACCESS_TOKEN
@@ -25,9 +36,7 @@ module.exports = {
         options: {
           name: 'src',
           path: `${__dirname}/src/`
-        }
-      },
-      'gatsby-plugin-sharp',
+        },
       {
         resolve: 'gatsby-transformer-remark',
         options: {
