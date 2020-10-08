@@ -18,9 +18,8 @@ const Header = () => {
         <Link className={headerStyles.brand} to="/">
           {data.site.siteMetadata.title}
           <p className={headerStyles.tagline}>always a student</p>
-          <p className={headerStyles.tagline}>#100DaysOfCode</p>
         </Link>
-        </h1>
+      </h1>
       <nav>
         <ul className={headerStyles.navList}>
           <li>

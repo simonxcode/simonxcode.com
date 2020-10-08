@@ -1,11 +1,18 @@
 .display {
-  display: flex;
+  margin-bottom: 2rem;
 }
 
 .description {
-  padding: 1rem;
+  display: inline-block;
+  vertical-align: top;
+  padding-right: .5rem;
+  width: 50%;
 }
 
 .image {
-  padding: 1rem; 
+  display: inline-block;
+  padding-left: .5rem;
+  width: 50%;
 }
+
+
