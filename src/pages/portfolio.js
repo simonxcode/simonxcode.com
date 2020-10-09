@@ -2,7 +2,10 @@ import React from 'react'
 import Layout from '../components/layout'
 import portfolioStyle from "./portfolio.module.scss"
 import Head from '../components/head'
-import Image from '../components/image'
+import ScoreKeeper from '../components/ScoreKeeper'
+import Chirpper from '../components/Chirpper'
+import InThePan from '../components/InThePan'
+import TicTacToe from '../components/TicTacToe'
 
 const ProjectPage = () => {
   return (
@@ -22,7 +25,7 @@ const ProjectPage = () => {
           <div className={portfolioStyle.image}>
             <a href="https://scorekeeper-app.surge.sh/">
               <div>
-                <Image />
+                <ScoreKeeper />
               </div>
             </a>
           </div>
@@ -36,7 +39,9 @@ const ProjectPage = () => {
           </div>
           <div className={portfolioStyle.image}>
             <a href="https://chingu-chirpper.herokuapp.com/timeline/chingu">
-            Image goes here
+              <div>
+                <Chirpper />
+              </div>
             </a>
           </div>
         </div>
@@ -49,7 +54,9 @@ const ProjectPage = () => {
           </div>
           <div className={portfolioStyle.image}>
             <a href="https://inthepan-app.surge.sh/">
-            Image goes here
+              <div>
+                <InThePan />
+              </div>
             </a>
           </div>
         </div>
@@ -62,7 +69,9 @@ const ProjectPage = () => {
           </div>
           <div className={portfolioStyle.image}>
             <a href="https://simonxcode.github.io/tictactoe-react/">
-            Image goes here
+              <div>
+                <TicTacToe />
+              </div>
             </a>
           </div>
         </div>
