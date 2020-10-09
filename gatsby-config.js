@@ -3,7 +3,7 @@
  *
  * See: https://www.gatsbyjs.org/docs/gatsby-config/
  */
-// const path = require(`path`)
+const path = require(`path`)
 
 module.exports = {
   /* Your site config here */
@@ -37,7 +37,6 @@ module.exports = {
           name: 'src',
           path: `${__dirname}/src/`
         },
-      {
         resolve: 'gatsby-transformer-remark',
         options: {
           plugins: [
