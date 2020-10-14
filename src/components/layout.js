@@ -3,16 +3,19 @@ import Header from './header'
 import Footer from './footer'
 import '../styles/index.scss'
 import layoutStyle from './layout.module.scss'
+import footerStyle from './footer.module.scss'
 
 const Layout = (props) => {
   return (
-    <div>
+    <div className={layoutStyle.container}>
        <div className={layoutStyle.sidebar}>
         <Header />
-        <Footer />
-        </div>
+      </div>
       <div className={layoutStyle.content}>
         {props.children}
+      </div>
+      <div className={footerStyle.footer}>
+        <Footer />
       </div>
     </div>
   )
