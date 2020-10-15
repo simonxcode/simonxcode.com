@@ -16,6 +16,19 @@
   min-height: 100vh;
 }
 
+.menu {
+  background: #000000;
+  width: 2.5rem;
+  height: 2.5rem;
+  bottom: .625rem;
+  left: .625rem;
+  display: block;
+  position: absolute;
+  border-radius: 50%;
+}
+
+
+
 @media screen and (max-width: 55rem) { 
   .sidebar {
     display: none;
@@ -24,5 +37,6 @@
     margin-left: 0rem;
   }
 }
+
 
 

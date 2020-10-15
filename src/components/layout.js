@@ -14,6 +14,7 @@ const Layout = (props) => {
       <div className={layoutStyle.content}>
         {props.children}
       </div>
+      <div className={layoutStyle.menu}></div>
       <div className={footerStyle.footer}>
         <Footer />
       </div>
