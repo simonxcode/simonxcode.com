@@ -29,12 +29,13 @@
   bottom: .625rem;
   left: .625rem;
   display: block;
-  position: absolute;
+  position: fixed;
   border-radius: 50%;
+  z-index: 1;
 }
-//styling menu button 
-.menu:before, 
-.menu:after {
+//styling menu button(horizontal bar)
+.menu:before, //top
+.menu:after { //bottom 
   background: #FFFFFF;
   width: 1.25rem;
   height: 0.125rem;
