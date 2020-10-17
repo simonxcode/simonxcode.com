@@ -21,39 +21,8 @@
   z-index: 1;
   min-height: 100vh;
 }
-//menu button mock
-.menu {
-  background: #000000;
-  width: 2.5rem;
-  height: 2.5rem;
-  bottom: .625rem;
-  left: .625rem;
-  display: block;
-  position: absolute;
-  border-radius: 50%;
-}
-//styling menu button 
-.menu:before, 
-.menu:after {
-  background: #FFFFFF;
-  width: 1.25rem;
-  height: 0.125rem;
-  left: 0.625rem;
-  display: block;
-  position: absolute;
-  content: "";
-  transition: all .75s ease;
-}
-
-.menu:before {
-  top: 1rem;
-}
-
-.menu:after {
-  bottom: 1rem;
-}
-
-@media screen and (max-width: 55rem) { 
+//tablet view 
+@media screen and (max-width: 55rem) {  //880 px
   .sidebar {
     display: none;
   }
@@ -61,6 +30,8 @@
     margin-left: 0rem;
   }
 }
+
+
 
 
 

@@ -1,9 +1,9 @@
 import React from 'react'
 import Header from './header'
 import Footer from './footer'
+import Menu from './menu'
 import '../styles/index.scss'
 import layoutStyle from './layout.module.scss'
-import footerStyle from './footer.module.scss'
 
 const Layout = (props) => {
   return (
@@ -14,8 +14,9 @@ const Layout = (props) => {
       <div className={layoutStyle.content}>
         {props.children}
       </div>
-      <div className={layoutStyle.menu}></div>
-      <div className={footerStyle.footer}>
+      {/* Menu Button */}
+      <Menu />
+      <div>
         <Footer />
       </div>
     </div>
