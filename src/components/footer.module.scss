@@ -1,3 +1,4 @@
+//desktop view 
 @media screen and (min-width: 55rem){
   .footer {
     position: fixed;
@@ -6,7 +7,7 @@
     margin-bottom: 1rem;
   }
 }
-
+//tablet view
 @media screen and (max-width: 55rem){
   .footer {
     flex-shrink: 0; 

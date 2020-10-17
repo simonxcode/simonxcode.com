@@ -52,8 +52,8 @@
 .menu:after {
   bottom: 1rem;
 }
-
-@media screen and (max-width: 55rem) { 
+//tablet view 
+@media screen and (max-width: 55rem) {  //880 px
   .sidebar {
     display: none;
   }
@@ -61,6 +61,15 @@
     margin-left: 0rem;
   }
 }
+// desktop view
+@media screen and (min-width: 55rem) {
+  //hide menu in desktop view
+  .menu {
+    display: none;
+  }
+}
+
+
 
 
 
