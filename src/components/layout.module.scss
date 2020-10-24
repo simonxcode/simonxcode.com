@@ -2,6 +2,7 @@
 .container {
   display: block;
   position: relative;
+  background: #09092a;
 }
 
 .sidebar {
@@ -9,7 +10,6 @@
   padding: 1rem;
   height: 100%;
   width: 200px;
-  background: #4a4e50;
 }
 
 .content {
@@ -20,6 +20,10 @@
   overflow: auto;
   z-index: 1;
   min-height: 100vh;
+}
+
+Link {
+  background: #0099cc;
 }
 //tablet view 
 @media screen and (max-width: 55rem) {  //880 px
