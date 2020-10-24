@@ -1,6 +1,9 @@
 //menu button mock
 .menu {
-  background: #000000;
+  background: #09092a;
+  border-style: solid; 
+  border-width: thin; 
+  border-color: #6495ed;
   width: 2.5rem;
   height: 2.5rem;
   bottom: .625rem;
@@ -16,7 +19,7 @@
 //top
 .menu:after {
   //bottom 
-  background: #FFFFFF;
+  background: #6495ed;
   width: 1.25rem;
   height: 0.125rem;
   left: 0.625rem;
