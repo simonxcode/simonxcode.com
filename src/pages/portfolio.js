@@ -12,8 +12,8 @@ const ProjectPage = () => {
     <div>
       <Layout>
         <Head title="portfolio"/>
-        <h1>Feature Projects</h1>
-        <h2>Here are some projects I recently worked on.</h2>
+        <p className={portfolioStyle.title}>Feature Projects</p>
+        <h1>Here are some projects I recently worked on.</h1>
         <hr />
         <div className={portfolioStyle.display}>
           <div className={portfolioStyle.description}>
@@ -63,8 +63,8 @@ const ProjectPage = () => {
         <div className={portfolioStyle.display}>
           <div className={portfolioStyle.description}>
             <h3>Tic Tac Toe</h3>
-            <p>The classic paper-and-pencil game where players have to match 3 in-a-row to win.</p>
-            <p>This application was built with React and styled with Material-UI</p>
+            <p>The classic paper-and-pencil game where players have to match 3 in-a-row to win.
+            This application was built with React and styled with Material-UI</p>
             <a href="https://github.com/simonxcode/tictactoe-react">Repository</a>
           </div>
           <div className={portfolioStyle.image}>
