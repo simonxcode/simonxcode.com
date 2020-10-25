@@ -12,7 +12,7 @@ const ProjectPage = () => {
     <div>
       <Layout>
         <Head title="portfolio"/>
-        <p className={portfolioStyle.heading}>Feature Projects</p>
+        <p className={portfolioStyle.title}>Feature Projects</p>
         <h1>Here are some projects I recently worked on.</h1>
         <hr />
         <div className={portfolioStyle.display}>
