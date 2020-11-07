@@ -3,20 +3,30 @@ import { Link } from 'gatsby'
 import Layout from '../components/layout'
 import indexStyle from './index.module.scss' 
 import Head from '../components/head'
+import Anime from 'react-anime'
 
 
 const HomePage = () => {
   return (
-    <div> 
-      <Layout>
-        <Head title="home"  />
-        <div>
-          <p className={indexStyle.greeting}>Hello, I'm Simon.</p>
-          <h1>I like to help build impactful solutions for humans</h1>
-          <p> Feel free to checkout my <Link className={indexStyle.link}to="/portfolio">portfolio</Link> to see my latest work.</p>
-        </div>
-      </Layout>
-    </div>
+  
+      <div> 
+        <Layout>
+          <Head title="home"  />
+          <div>
+            <Anime
+              opacity={[0, 1]}
+              easing= 'easeInExpo' 
+              translateY={'3em'}
+              delay={(e, i) => i * 500}
+            >
+              <p className={indexStyle.greeting}>Hello, I'm Simon.</p>
+              <h1>I like to help build impactful solutions for humans</h1>
+              <p> Feel free to checkout my <Link className={indexStyle.link} to="/portfolio">portfolio</Link> to see my latest work.</p>
+            </Anime>
+          </div>
+        </Layout>
+      </div>
+   
   )
 }
 
