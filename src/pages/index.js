@@ -11,12 +11,12 @@ const HomePage = () => {
   
       <div> 
         <Layout>
-          <Head title="home"  />
+          <Head title="home" />
           <div>
             <Anime
               opacity={[0, 1]}
               easing= 'easeInExpo' 
-              translateY={'3em'}
+              translateY={'3rem'}
               delay={(e, i) => i * 500}
             >
               <p className={indexStyle.greeting}>Hello, I'm Simon.</p>

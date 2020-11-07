@@ -1,6 +1,5 @@
 import React from 'react'
 import Header from './header'
-import Footer from './footer'
 import Menu from './menu'
 import '../styles/index.scss'
 import layoutStyle from './layout.module.scss'
@@ -14,11 +13,7 @@ const Layout = (props) => {
       <div className={layoutStyle.content}>
         {props.children}
       </div>
-      {/* Menu Button */}
       <Menu />
-      <div>
-        <Footer />
-      </div>
     </div>
   )
 }

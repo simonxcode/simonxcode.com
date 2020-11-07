@@ -1,19 +1,19 @@
 //parent div of menu button 
 .container {
-  display: block;
+  display: block; 
   position: relative;
   background: #09092a;
 }
 
 .sidebar {
   position: fixed;
-  padding: 1rem;
+  padding: 2rem 0rem; 
   height: 100%;
   width: 200px;
 }
 
 .content {
-  flex-grow: 1;
+  flex-grow: 1; 
   margin-left: 200px;
   width: auto;
   padding: 0rem 3rem;
@@ -25,8 +25,8 @@
 Link {
   background: #0099cc;
 }
-//tablet view 
-@media screen and (max-width: 55rem) {  //880 px
+
+@media screen and (max-width: 55rem) {  
   .sidebar {
     display: none;
   }
