@@ -19,7 +19,7 @@ const Header = () => {
       opacity={[0, 1]}
       easing='easeInExpo'
       translateX={'1rem'}
-      delay={anime.stagger(500)}
+      delay={anime.stagger(300)}
     >
       <div>
         <header className={headerStyles.header}>
