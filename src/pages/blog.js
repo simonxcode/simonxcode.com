@@ -23,7 +23,7 @@ const Blog = () => {
     <div>
       <Layout>
         <Head title="blog"/>
-        <p className={blogStyle.title}>Blog</p>
+        <p className={blogStyle.titles}>Blog</p>
         <ol className={blogStyle.posts}>
           {data.allContentfulBlogPost.edges.map((edge) => {
             return (
