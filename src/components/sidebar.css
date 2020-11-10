@@ -1,0 +1,14 @@
+.bm-burger-button {
+  position: fixed;
+  background: #0099cc;
+  width: 36px;
+  height: 30px;
+  left: 36px;
+  top: 36px;
+}
+
+@media screen and (min-width: 55rem) {
+  .bm-burger-button {
+    display: none;
+  }
+}
