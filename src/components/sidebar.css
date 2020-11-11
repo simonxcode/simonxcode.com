@@ -1,11 +1,32 @@
 .bm-burger-button {
+  border-color: #7d9bd4;
+  width: 2.5rem;
+  height: 1.25rem;
+  bottom: 1.25rem;
+  left: 1.25rem;
+  display: block;
   position: fixed;
-  background: #0099cc;
-  width: 36px;
-  height: 30px;
-  left: 36px;
-  top: 36px;
+  z-index: 1;
 }
+
+.bm-burger-bars {
+  background: #7d9bd4;
+  width: 1.75rem;
+}
+
+.bm-burger-bars-hover {
+  background: #00bfff;
+}
+
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+.bm-cross {
+  background: #7d9bd4;
+}
+
 
 @media screen and (min-width: 55rem) {
   .bm-burger-button {
