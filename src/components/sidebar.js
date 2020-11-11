@@ -16,13 +16,23 @@ const Sidebar = () => {
     }
   `)
   return (
-    <Menu>
-      <header className={headerStyles.header}>
-        <Link className={headerStyles.brand} to="/">
-          {data.site.siteMetadata.title}
-        </Link>
-      </header>
-    </Menu>
+    <div>
+      <Menu>
+        <header className={headerStyles.header}>
+          <Link className={headerStyles.brand} to="/">
+            {data.site.siteMetadata.title}
+            <p>always a student</p>
+          </Link>
+        </header>  
+        <nav>
+          <ul className={headerStyles.navList}>
+            <li>
+              <Link className={headerStyles.navItem} activeClassName={headerStyles.activeClassName}>home</Link>
+            </li>
+          </ul>
+        </nav>
+      </Menu>
+    </div>
   )
 }
 
