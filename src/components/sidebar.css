@@ -4,7 +4,6 @@
   height: 1.25rem;
   bottom: 1.25rem;
   left: 1.25rem;
-  display: block;
   position: fixed;
   z-index: 1;
 }
@@ -19,8 +18,8 @@
 }
 
 .bm-cross-button {
-  height: 24px;
-  width: 24px;
+  height: 2.5rem;
+  width: 2.5rem;
 }
 
 .bm-cross {
