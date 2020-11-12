@@ -1,6 +1,5 @@
 import React from 'react'
 import Header from './header'
-// import Menu from './menu'
 import '../styles/index.scss'
 import layoutStyle from './layout.module.scss'
 import Sidebar from './sidebar'
@@ -15,7 +14,6 @@ const Layout = (props) => {
       <div className={layoutStyle.content}>
         {props.children}
       </div>
-      {/* <Menu /> */}
     </div>
   )
 }

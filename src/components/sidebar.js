@@ -3,7 +3,6 @@ import { Link, graphql, useStaticQuery } from 'gatsby'
 import { slide as Menu } from 'react-burger-menu'
 import headerStyles from './header.module.scss'
 import './sidebar.css'
-import Anime, { anime } from 'react-anime'
 
 const Sidebar = () => {
   const data = useStaticQuery(graphql`
@@ -18,7 +17,7 @@ const Sidebar = () => {
   `)
   return (
     <div>
-      <Menu>
+      <Menu disableAutoFocus>
         <header className={headerStyles.header}>
           <Link className={headerStyles.brand} to="/">
             {data.site.siteMetadata.title}
