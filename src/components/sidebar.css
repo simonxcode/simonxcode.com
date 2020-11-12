@@ -26,6 +26,15 @@
   background: #7d9bd4;
 }
 
+/* general sidebar styles*/
+.bm-menu {
+  background:#09092a;
+  width: 12.5rem;
+  padding: 2rem 1rem;
+  font-size: .9rem;
+  font-weight: normal;
+ 
+}
 
 @media screen and (min-width: 55rem) {
   .bm-burger-button {
