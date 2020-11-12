@@ -38,6 +38,9 @@ const Sidebar = () => {
             <li>
               <Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/about">about</Link>
             </li>
+            <li>
+              <Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/photography">photography</Link>
+            </li>
           </ul>
         </nav>
       </Menu>
