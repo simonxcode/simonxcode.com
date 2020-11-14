@@ -14,7 +14,9 @@ const ContactPage = () => {
         <h1>Drop a line or just say hello</h1>
         <a href="https://twitter.com/simonxcode">Lets get social</a>
         <div>
-          <FontAwesomeIcon icon={faGithub} className={contactStyle.icon}/>
+          <ul>
+            <li><a href='https://github.com/simonxcode'><FontAwesomeIcon icon={faGithub} className={contactStyle.icon} /></a></li>
+          </ul>
         </div>
       </Layout>
     </div>
