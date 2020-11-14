@@ -1,4 +1,38 @@
-  .title {
-    color: #00bfff;
-    padding-top: 3rem;
+.title {
+  color: #00bfff;
+  padding-top: 3rem;
+}
+
+.social {
+align-items: center;
+}
+
+.social ul {
+  list-style: none;
+}
+
+.social li {
+  display: inline;
+  padding: 0.625rem;
+}
+
+.icon {
+  font-size: 1.25rem;
+  color: #8ea0c2;
+}
+
+.icon:hover {
+  color: #00bfff;
+  animation: moveUp 0.25s ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes moveUp {
+  0% {
+    transform: translateY(0rem);
   }
+  100% {
+    transform: translateY(-0.3125rem);
+  }
+}
+
