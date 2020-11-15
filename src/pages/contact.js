@@ -11,8 +11,8 @@ const ContactPage = () => {
       <Layout>
         <Head title="contact" />
         <p className={contactStyle.title}>Contact</p>
-        <h1>Drop a line or just say hello</h1>
-        <p>Now let's get social. <a href='https://mail.google.com/mail/?view=cm&fs=1&to=simonxiong11@gmail.com'>Emails</a> are also cool.</p>
+        <h1>Drop a line or just say hello.</h1>
+        <p>Now lets get social. <a href='https://mail.google.com/mail/?view=cm&fs=1&to=simonxiong11@gmail.com'>Emails</a> are cool also.</p>
         <div className={contactStyle.social}>
           <ul>
             <li><a href='https://github.com/simonxcode'><FontAwesomeIcon icon={faGithub} className={contactStyle.icon}/></a></li>

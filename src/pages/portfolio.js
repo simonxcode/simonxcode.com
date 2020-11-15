@@ -34,7 +34,7 @@ const ProjectPage = () => {
           <div className={portfolioStyle.description}>
             <h3>Chirpper</h3>
             <p>A social medial platform where users can create and share a dialogue.
-            This app was built with JavaScript, Node, Express, MongoDB and styled with CSS</p>
+            This app was built with JavaScript, Node, Express, MongoDB and styled with Bootstrap.</p>
             <a href="https://github.com/chingu-voyage5/Geckos-Team-16">Repository</a>
           </div>
           <div className={portfolioStyle.image}>
@@ -64,7 +64,7 @@ const ProjectPage = () => {
           <div className={portfolioStyle.description}>
             <h3>Tic Tac Toe</h3>
             <p>The classic paper-and-pencil game where players have to match 3 in-a-row to win.
-            This application was built with React and styled with Material-UI</p>
+            This application was built with React and styled with Material-UI.</p>
             <a href="https://github.com/simonxcode/tictactoe-react">Repository</a>
           </div>
           <div className={portfolioStyle.image}>
