@@ -20,7 +20,7 @@ const HomePage = () => {
               delay={(e, i) => i * 300}
             >
               <p className={indexStyle.greeting}>Hello, I'm Simon.</p>
-              <h1>I like to help build impactful solutions for humans</h1>
+              <h1>I like to help build impactful solutions for humans.</h1>
               <p> Feel free to checkout my <Link className={indexStyle.link} to="/portfolio">portfolio</Link> to see my latest work.</p>
             </Anime>
           </div>
