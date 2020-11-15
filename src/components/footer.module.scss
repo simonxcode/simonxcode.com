@@ -19,4 +19,29 @@
     padding: 1rem;
     margin: auto;
   }
+  //social icons
+  .social {
+    align-items: center;
+  }
+
+  .social ul {
+    list-style: none;
+    margin: 0rem;
+    padding: 0rem;
+    text-align: center;
+  }
+
+  .social li {
+    display: inline;
+    padding: 0.625rem;
+  }
+
+  .icon {
+    font-size: 1.25rem;
+    color: #8ea0c2;
+  }
+
+  .icon:hover {
+    color: #00bfff;
+  }
 }
