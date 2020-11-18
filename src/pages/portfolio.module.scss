@@ -21,20 +21,26 @@ a {
   display: inline-block;
   vertical-align: top;
   padding-left: 1rem;
+  max-width: 50%;
   flex: 50%;
 }
 
 .image {
   display: inline-block;
-  margin-bottom: 8rem;
+  margin-bottom: 10rem;
   margin-left: 1rem;
+  max-width: 15rem;
   flex: 50%;
   box-shadow: 0.3125rem 0.625rem #8ea0c2;
 }
 
-@media screen and (max-width: 40rem) { 
+@media screen and (max-width: 55rem) { 
   .display {
     flex-direction: column;
+  }
+  .description {
+    max-width: 100%;
+    vertical-align: none;
   }
 }
 
