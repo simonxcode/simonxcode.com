@@ -25,6 +25,10 @@ a {
   flex: 50%;
 }
 
+
+
+
+
 .image {
   display: inline-block;
   margin-bottom: 10rem;
@@ -41,6 +45,9 @@ a {
   .description {
     max-width: 100%;
     vertical-align: none;
+  }
+  .image {
+    margin-bottom: 5rem;
   }
 }
 
