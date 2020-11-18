@@ -11,17 +11,24 @@
 .summary {
   display: inline-block;
   padding-left: 1rem;
+  max-width: 50%;
   flex: 50%;
 }
 
 .image {
   display: inline-block;
-  padding: 1rem;
+  margin-bottom: 8rem;
+  margin-left: 1rem;
+  max-width: 15rem;
   flex: 50%;
+  box-shadow: 0.3125rem 0.625rem #8ea0c2;
 }
 
-@media screen and (max-width: 55rem) {
+@media screen and (max-width: 40rem) {
   .display {
     flex-direction: column;
+  }
+  .summary {
+    max-width: 100%;
   }
 }

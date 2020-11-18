@@ -1,6 +1,6 @@
 import React from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
-import Img from 'gatbsy-image'
+import Img from 'gatsby-image'
 
 const Profile = () => {
   const data = useStaticQuery(graphql `
