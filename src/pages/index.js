@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 import Layout from '../components/layout'
 import indexStyle from './index.module.scss' 
 import Head from '../components/head'
-import Anime from 'react-anime'
+import Anime, { anime } from 'react-anime'
 
 
 const HomePage = () => {
@@ -17,11 +17,18 @@ const HomePage = () => {
               opacity={[0, 1]}
               easing= 'easeInExpo' 
               translateY={'3rem'}
-              delay={(e, i) => i * 300}
+              delay={anime.stagger(300, {start:1000})}
+              // delay={(e, i) => i * 300}
             >
-              <p className={indexStyle.greeting}>Hello, I'm Simon.</p>
+            <div>
+              <p className={indexStyle.greeting}>Hello, I 'm Simon.</p>
+            </div>
+            <div>
               <h1>I like to help build impactful solutions for humans.</h1>
+            </div>
+            <div>
               <p> Feel free to checkout my <Link className={indexStyle.link} to="/portfolio">portfolio</Link> to see my latest work.</p>
+            </div>
             </Anime>
           </div>
         </Layout>
