@@ -51,7 +51,7 @@ const ProjectPage = () => {
           <div className={portfolioStyle.description}>
             <h3>In the Pan</h3>
             <p>A recipe finder that will help generate ideas for your next meal.
-            This application with build with Vue, VueX, Vuetify and utilized a 3rd party API.</p>
+            This app was build with Vue, VueX, Vuetify and utilized a 3rd party API.</p>
             <p><a href="https://github.com/chingu-voyages/v8-geckos-team-11">Repository</a></p>
           </div>
           <div className={portfolioStyle.image}>
@@ -66,7 +66,7 @@ const ProjectPage = () => {
           <div className={portfolioStyle.description}>
             <h3>Tic Tac Toe</h3>
             <p>The classic paper-and-pencil game where players have to match 3 in-a-row to win.
-            This application was built with React and styled with Material-UI.</p>
+            This app was built with React and styled with Material-UI.</p>
             <p>
               <a href="https://github.com/simonxcode/tictactoe-react" > Repository </a>
             </p>
