@@ -4,6 +4,7 @@ import '../styles/index.scss'
 import layoutStyle from './layout.module.scss'
 import Sidebar from './sidebar'
 import Footer from './footer'
+import 'normalize.css/normalize.css'
 
 const Layout = (props) => {
   return (
