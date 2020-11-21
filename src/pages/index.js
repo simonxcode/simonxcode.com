@@ -18,7 +18,6 @@ const HomePage = () => {
               easing= 'easeInExpo' 
               translateY={'3rem'}
               delay={anime.stagger(300, {start:1000})}
-              // delay={(e, i) => i * 300}
             >
             <div>
               <p className={indexStyle.greeting}>Hello, I 'm Simon.</p>
