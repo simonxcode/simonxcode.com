@@ -17,7 +17,7 @@ const HomePage = () => {
               opacity={[0, 1]}
               easing= 'easeInExpo' 
               translateY={'3rem'}
-              delay={anime.stagger(300, {start:1000})}
+              delay={anime.stagger(300)}
             >
             <div>
               <p className={indexStyle.greeting}>Hello, I 'm Simon.</p>
