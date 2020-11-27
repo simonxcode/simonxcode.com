@@ -1,6 +1,6 @@
 .title {
   color: #00bfff;
-  padding-top: 7rem;
+  padding-top: 6rem;
 }
 
 p {
@@ -19,10 +19,14 @@ a {
 
 .description {
   display: inline-block;
+  // padding-left: .5rem;
   vertical-align: top;
-  padding-left: 1rem;
   max-width: 50%;
   flex: 50%;
+}
+
+.description > p {
+  padding-left: .5rem;
 }
 
 .image {

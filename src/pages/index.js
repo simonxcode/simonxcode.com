@@ -16,8 +16,8 @@ const HomePage = () => {
           <div>
             <h1>I like to help build impactful solutions for humans.</h1>
           </div>
-          <div>
-            <p> Feel free to checkout my <Link className={indexStyle.link} to="/portfolio">portfolio</Link> to see my latest work.</p>
+          <div className={indexStyle.summary}>
+            <p>Feel free to checkout my <Link className={indexStyle.link} to="/portfolio">portfolio</Link> to see my latest work.</p>
           </div>
         </div>
       </Layout>
