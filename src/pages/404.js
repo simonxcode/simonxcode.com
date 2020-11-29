@@ -2,13 +2,17 @@ import React from 'react'
 import { Link } from 'gatsby'
 import Layout from '../components/layout'
 import Head from '../components/head'
+import NotFoundStyle from './404.module.scss'
 
 const NotFound = () => {
   return (
     <Layout>
       <Head title="404 - Page not found"/>
-      <h1>404 - Page not found</h1>
-      <p><Link to="/">back to home</Link></p>
+      <div className={NotFoundStyle.link}>
+        <p><Link to="/">back to home</Link></p>
+        <h1>404 - Page not found</h1>
+      </div>
+
     </Layout>
   )
 }

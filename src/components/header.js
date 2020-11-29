@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link, graphql, useStaticQuery } from 'gatsby'
 import headerStyles from './header.module.scss'
-import Anime, { anime } from 'react-anime'
 
 const Header = () => {
   const data = useStaticQuery(graphql`
@@ -15,13 +14,8 @@ const Header = () => {
     }
   `)
   return (
-    <Anime
-      opacity={[0, 1]}
-      easing='easeInExpo'
-      translateX={'1rem'}
-      delay={anime.stagger(300, {start:1000})}
-    >
-      <div>
+    <div>
+    <div>
         <header className={headerStyles.header}>
         <Link className={headerStyles.brand} to="/">
           {data.site.siteMetadata.title}
@@ -56,7 +50,7 @@ const Header = () => {
       <div className={headerStyles.footer}>
         <p>{data.site.siteMetadata.author} © 2020</p>
       </div>
-    </Anime>
+    </div>
   )
 }
 

@@ -39,10 +39,22 @@
 
   .icon {
     font-size: 1.25rem;
-    color: #8ea0c2;
+    color: #7d9bd4
   }
 
   .icon:hover {
-    color: #00bfff;
+    color: #33ccff;
+    animation: moveUp 0.25s ease-in-out;
+    animation-fill-mode: forwards;
+  }
+}
+
+@keyframes moveUp {
+  0% {
+    transform: translateY(0rem);
+  }
+
+  100% {
+    transform: translateY(-0.3125rem);
   }
 }

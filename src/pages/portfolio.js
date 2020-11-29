@@ -13,7 +13,7 @@ const ProjectPage = () => {
       <Layout>
         <Head title="portfolio"/>
         <p className={portfolioStyle.title}>Feature Projects</p>
-        <h1>Here are some projects I recently worked on.</h1>
+        <h1 className={portfolioStyle.subTitle}>Here are some projects I recently worked on.</h1>
         <hr />
         <div className={portfolioStyle.display}>
           <div className={portfolioStyle.description}>
