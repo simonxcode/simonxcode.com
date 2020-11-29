@@ -3,7 +3,7 @@ import Layout from '../components/layout'
 import portfolioStyle from "./portfolio.module.scss"
 import Head from '../components/head'
 import ScoreKeeper from '../components/ScoreKeeper'
-import Chirpper from '../components/Chirpper'
+import Chirpper from '../components/gatsby-image/Chirpper'
 import InThePan from '../components/InThePan'
 import TicTacToe from '../components/TicTacToe'
 

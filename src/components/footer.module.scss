@@ -1,11 +1,9 @@
-//desktop view
 @media screen and (min-width: 55rem) {
   .footer {
      display: none;
   }
 }
 
-//tablet view
 @media screen and (max-width: 55rem) {
   .footer {
     flex-shrink: 0;
@@ -20,7 +18,7 @@
     margin: auto;
     font-size: 0.75rem;
   }
-  //social icons
+
   .social {
     align-items: center;
   }
