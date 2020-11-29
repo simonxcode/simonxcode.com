@@ -1,6 +1,10 @@
 .title {
-  color: #00bfff;
+  color: #33ccff;
   padding-top: 6rem;
+}
+
+.subTitle {
+  padding-right: .5rem;
 }
 
 .social {
@@ -23,7 +27,7 @@ align-items: center;
 }
 
 .icon:hover {
-  color: #00bfff;
+  color: #33ccff;
   animation: moveUp 0.25s ease-in-out;
   animation-fill-mode: forwards;
 }

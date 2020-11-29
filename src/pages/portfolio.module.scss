@@ -1,6 +1,10 @@
 .title {
-  color: #00bfff;
+  color: #33ccff;
   padding-top: 6rem;
+}
+
+.subTitle {
+  padding-bottom: 3rem;
 }
 
 p {
@@ -9,17 +13,18 @@ p {
 
 a {
   text-decoration: none;
-  color: #00bfff;
+  color: #33ccff;
 }
 
 .display {
   display: flex;
   flex-direction: row;
+  // padding-top: 1rem;
 }
 
 .description {
   display: inline-block;
-  // padding-left: .5rem;
+  padding-left: .5rem;
   vertical-align: top;
   max-width: 50%;
   flex: 50%;
