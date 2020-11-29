@@ -67,7 +67,7 @@ const ProjectPage = () => {
             <p>The classic paper-and-pencil game where players have to match 3 in-a-row to win.
             This app was built with React and styled with Material-UI.</p>
             <p>
-              <a href="https://github.com/simonxcode/tictactoe-react" > Repository </a>
+              <a href="https://github.com/simonxcode/tictactoe-react"> Repository </a>
             </p>
           </div>
           <div className={portfolioStyle.image}>
