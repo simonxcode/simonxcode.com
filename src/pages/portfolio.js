@@ -2,10 +2,10 @@ import React from 'react'
 import Layout from '../components/layout'
 import portfolioStyle from "./portfolio.module.scss"
 import Head from '../components/head'
-import ScoreKeeper from '../components/ScoreKeeper'
+import ScoreKeeper from '../components/gatsby-image/ScoreKeeper'
 import Chirpper from '../components/gatsby-image/Chirpper'
-import InThePan from '../components/InThePan'
-import TicTacToe from '../components/TicTacToe'
+import InThePan from '../components/gatsby-image/InThePan'
+import TicTacToe from '../components/gatsby-image/TicTacToe'
 
 const ProjectPage = () => {
   return (

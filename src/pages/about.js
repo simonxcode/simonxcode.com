@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 import Layout from '../components/layout'
 import Head from '../components/head'
 import aboutStyle from './about.module.scss'
-import Profile from '../components/Profile'
+import Profile from '../components/gatsby-image/Profile'
 
 const AboutPage = () => {
   return (
