@@ -14,7 +14,6 @@ const ProjectPage = () => {
         <Head title="portfolio"/>
         <p className={portfolioStyle.title}>Feature Projects</p>
         <h1 className={portfolioStyle.subTitle}>Here are some projects I recently worked on.</h1>
-        <hr />
         <div className={portfolioStyle.display}>
           <div className={portfolioStyle.description}>
             <h3>Score Keeper</h3>
@@ -50,8 +49,8 @@ const ProjectPage = () => {
         <div className={portfolioStyle.display}>
           <div className={portfolioStyle.description}>
             <h3>In the Pan</h3>
-            <p>A recipe finder that will help generate ideas for your next meal.
-            This app was build with Vue, VueX, Vuetify and utilized a 3rd party API.</p>
+            <p>A recipe finder that will help you generate ideas for your next meal.
+            This app was built with Vue, VueX, Vuetify and utilized a 3rd party API.</p>
             <p><a href="https://github.com/chingu-voyages/v8-geckos-team-11">Repository</a></p>
           </div>
           <div className={portfolioStyle.image}>
