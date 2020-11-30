@@ -15,7 +15,7 @@ const AboutPage = () => {
         <div className={aboutStyle.display}>
           <div className={aboutStyle.summary}>
             <p>
-            I am experienced in JavaScript based frameworks for building elegant 
+            I am experienced in JavaScript based frameworks and tools for building elegant 
             and functional web applications. 
             </p>
             <p>
