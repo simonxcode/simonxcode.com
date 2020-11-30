@@ -3,13 +3,12 @@
   padding-top: 6rem;
 }
 
-p {
-  padding-right: 3rem;
+.subTitle {
+  padding-bottom: 3rem;
 }
 
-a {
-  text-decoration: none;
-  color: #33ccff;
+p {
+  padding-right: 1rem;
 }
 
 .display {
@@ -34,8 +33,10 @@ a {
   margin-bottom: 10rem;
   margin-left: 1rem;
   max-width: 15rem;
+  margin-top: 2rem;
   flex: 50%;
   box-shadow: 0.3125rem 0.625rem #7d9bd4
+
 }
 
 @media screen and (max-width: 55rem) { 
