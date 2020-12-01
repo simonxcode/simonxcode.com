@@ -1,0 +1,40 @@
+.container {
+  display: block; 
+  position: relative;
+  background: #09092a;
+}
+
+.sidebar {
+  position: fixed;
+  padding: 2rem 1rem; 
+  height: 100%;
+  width: 12.5rem;
+}
+
+.content {
+  flex-grow: 1; 
+  margin-left: 12.5rem;
+  width: auto;
+  padding: 0rem 3.5rem;
+  overflow: auto;
+  z-index: 1;
+  min-height: 100vh;
+}
+
+Link {
+  background: #0099cc;
+}
+
+@media screen and (max-width: 55rem) {  
+  .sidebar {
+    display: none;
+  }
+  .content {
+    margin-left: 0rem;
+  }
+}
+
+
+
+
+

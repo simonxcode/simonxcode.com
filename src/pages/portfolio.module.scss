@@ -1,0 +1,55 @@
+.title {
+  color: #33ccff;
+  padding-top: 6rem;
+}
+
+.subTitle {
+  padding-bottom: 3rem;
+}
+
+p {
+  padding-right: 1rem;
+}
+
+.display {
+  display: flex;
+  flex-direction: row;
+}
+
+.description {
+  display: inline-block;
+  padding-left: .5rem;
+  vertical-align: top;
+  max-width: 50%;
+  flex: 50%;
+}
+
+.description > p {
+  padding-left: .5rem;
+}
+
+.image {
+  display: inline-block;
+  margin-bottom: 10rem;
+  margin-left: 1rem;
+  max-width: 15rem;
+  margin-top: 2rem;
+  flex: 50%;
+  box-shadow: 0.3125rem 0.625rem #7d9bd4
+
+}
+
+@media screen and (max-width: 55rem) { 
+  .display {
+    flex-direction: column;
+  }
+  .description {
+    max-width: 100%;
+    vertical-align: none;
+  }
+  .image {
+    margin-bottom: 5rem;
+  }
+}
+
+

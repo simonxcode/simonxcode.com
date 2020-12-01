@@ -1,0 +1,49 @@
+.title {
+  color: #33ccff;
+  padding-top: 6rem;
+}
+
+.subTitle {
+  padding-right: .5rem;
+}
+
+.social {
+align-items: center;
+}
+
+.social ul {
+  list-style: none;
+  margin: 0rem;
+}
+
+.social li {
+  display: inline;
+  padding: 0.625rem;
+}
+
+.icon {
+  font-size: 1.25rem;
+  color: #7d9bd4;
+}
+
+.icon:hover {
+  color: #33ccff;
+  animation: moveUp 0.25s ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes moveUp {
+  0% {
+    transform: translateY(0rem);
+  }
+  100% {
+    transform: translateY(-0.3125rem);
+  }
+}
+
+@media screen and (max-width: 55rem) {
+  .social {
+    display: none;
+  }
+}
+
