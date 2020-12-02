@@ -1,7 +1,8 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "simonxcode.com",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "description": "Personal website sharing my latest work and writings",
+  "author": "Simon Xiong",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
@@ -45,9 +46,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
-  },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://simonxcode.com/"
   }
 }
