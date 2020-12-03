@@ -28,17 +28,6 @@ align-items: center;
 
 .icon:hover {
   color: #33ccff;
-  animation: moveUp 0.25s ease-in-out;
-  animation-fill-mode: forwards;
-}
-
-@keyframes moveUp {
-  0% {
-    transform: translateY(0rem);
-  }
-  100% {
-    transform: translateY(-0.3125rem);
-  }
 }
 
 @media screen and (max-width: 55rem) {

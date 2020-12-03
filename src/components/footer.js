@@ -2,7 +2,7 @@ import React from 'react'
 import { graphql, useStaticQuery } from 'gatsby'
 import footerStyle from './footer.module.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faLinkedinIn, faGithub, faTwitter } from '@fortawesome/free-brands-svg-icons' 
+import { faGithub, faLinkedinIn, faTwitter } from '@fortawesome/free-brands-svg-icons' 
 
 const Footer  = () => {
   const data = useStaticQuery(graphql`

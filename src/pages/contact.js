@@ -3,7 +3,7 @@ import Layout from '../components/layout'
 import Head from '../components/head'
 import contactStyle from './contact.module.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faLinkedinIn, faGithub, faTwitter } from '@fortawesome/free-brands-svg-icons' 
+import { faGithub, faLinkedinIn, faTwitter } from '@fortawesome/free-brands-svg-icons' 
 
 const ContactPage = () => {
   return (
@@ -16,9 +16,9 @@ const ContactPage = () => {
       
         <div className={contactStyle.social}>
           <ul>
-            <li><a href='https://github.com/simonxcode'><FontAwesomeIcon icon={faGithub} className={contactStyle.icon}/></a></li>
+            <li><a href='https://wwww.github.com/simonxcode'><FontAwesomeIcon icon={faGithub} className={contactStyle.icon}/></a></li>
             <li><a href='https://www.linkedin.com/in/simonxcode/'><FontAwesomeIcon icon={faLinkedinIn} className={contactStyle.icon}/></a></li>
-            <li><a href='https://twitter.com/simonxcode'><FontAwesomeIcon icon={faTwitter} className={contactStyle.icon}/></a></li>
+            <li><a href='https://www.twitter.com/simonxcode'><FontAwesomeIcon icon={faTwitter} className={contactStyle.icon}/></a></li>
           </ul>
         </div>
       </Layout>
