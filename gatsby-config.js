@@ -4,6 +4,7 @@
  * See: https://www.gatsbyjs.org/docs/gatsby-config/
  */
 const path = require(`path`)
+require('dotenv').config() //for running `gatsby build'
 
 module.exports = {
   /* Your site config here */
