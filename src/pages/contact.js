@@ -16,7 +16,7 @@ const ContactPage = () => {
       
         <div className={contactStyle.social}>
           <ul>
-            <li><a href='https://wwww.github.com/simonxcode'><FontAwesomeIcon icon={faGithub} className={contactStyle.icon}/></a></li>
+            <li><a href='https://www.github.com/simonxcode'><FontAwesomeIcon icon={faGithub} className={contactStyle.icon}/></a></li>
             <li><a href='https://www.linkedin.com/in/simonxcode/'><FontAwesomeIcon icon={faLinkedinIn} className={contactStyle.icon}/></a></li>
             <li><a href='https://www.twitter.com/simonxcode'><FontAwesomeIcon icon={faTwitter} className={contactStyle.icon}/></a></li>
           </ul>
