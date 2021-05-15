@@ -22,7 +22,7 @@
     "@fortawesome/free-solid-svg-icons": "^5.15.1",
     "@fortawesome/react-fontawesome": "^0.1.12",
     "browserslist": "^4.15.0",
-    "gatsby": "^2.21.22",
+    "gatsby": "^3.5.0",
     "gatsby-image": "^2.4.20",
     "gatsby-plugin-react-helmet": "^3.3.10",
     "gatsby-plugin-sass": "^2.3.1",
