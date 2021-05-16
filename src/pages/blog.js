@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link, graphql, useStaticQuery } from 'gatsby'
 import Layout from '../components/layout'
-import blogStyle from './blog.module.scss'
+import { title, posts, post } from './blog.module.scss'
 import Head from '../components/head'
 
 const Blog = () => {
@@ -22,11 +22,11 @@ const Blog = () => {
     <div>
       <Layout>
         <Head title="blog"/>
-        <p className={blogStyle.title}>Blog</p>
-        <ol className={blogStyle.posts}>
+        <p className={title}>Blog</p>
+        <ol className={posts}>
           {data.allContentfulBlogPost.edges.map((edge) => {
             return (
-              <li className={blogStyle.post}>
+              <li className={post}>
                 <Link to={`/blog/${edge.node.slug}`}>
                   <h2>{edge.node.title}</h2>
                   <p>{edge.node.publishedDate}</p>
