@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link, graphql, useStaticQuery } from 'gatsby'
 import { slide as Menu } from 'react-burger-menu'
-import { header, brand, tagline, navList, navItem, activeNavItem } from './header.module.scss'
+import { header, brand, tagLine, navList, navItem, activeNavItem } from './header.module.scss'
 import './sidebar.css'
 
 const Sidebar = () => {
@@ -21,7 +21,7 @@ const Sidebar = () => {
         <header className={header}>
           <Link className={brand} to="/">
             {data.site.siteMetadata.title}
-            <p className={tagline}>always a student</p>
+            <p className={tagLine}>always a student</p>
           </Link>
         </header>  
         <nav>
