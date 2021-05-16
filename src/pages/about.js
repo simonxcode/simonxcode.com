@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 import Layout from '../components/layout'
 import Head from '../components/head'
-import aboutStyle from './about.module.scss'
+import { title, display, summary, image }from './about.module.scss'
 import Profile from '../components/gatsby-image/Profile'
 
 const AboutPage = () => {
@@ -10,10 +10,10 @@ const AboutPage = () => {
     <div>
       <Layout>
         <Head title="about"/>
-        <p className={aboutStyle.title}>About Me</p>
+        <p className={title}>About Me</p>
         <h1>Full Stack Developer based in Atlanta, Georgia.</h1>
-        <div className={aboutStyle.display}>
-          <div className={aboutStyle.summary}>
+        <div className={display}>
+          <div className={summary}>
             <p>
             I am experienced in JavaScript based frameworks and tools for building elegant 
             and functional web applications. 
@@ -27,7 +27,7 @@ const AboutPage = () => {
             </p>
             <p>Want to work with me?<Link to="/contact"> React out.</Link></p>
           </div>
-          <div className={aboutStyle.image}>
+          <div className={image}>
             <Profile />
           </div>
         </div>
