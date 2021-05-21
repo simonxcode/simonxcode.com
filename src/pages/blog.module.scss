@@ -3,38 +3,8 @@
   padding-top: 6rem;
 }
 
-.titles {
-  padding-top: 4rem;
+.subTitle {
+  padding-left: .5rem;
 }
 
-.posts {
-  list-style-type: none;
-  margin: 0;
-}
 
-.post {
-  margin: 1rem 0;
-
-  a {
-    color: #8db0f2;
-    background:#09092a;
-    border-radius: 10px;
-    display: block;
-    padding: 1rem;
-    text-decoration: none;
-  }
-
-  a:hover {
-    background:#121254;
-  }
-
-  h2 {
-    margin-bottom: 0;
-  }
-
-  p {
-    color: #8ea0c2;
-    font-size: .8rem;
-    font-style: italic;
-  }
-}
