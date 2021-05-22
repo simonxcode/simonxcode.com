@@ -25,7 +25,7 @@ const AboutPage = () => {
             When not building software,
             I enjoy partaking in photography, fitness and learning about other cultures.
             </p>
-            <p>Want to work with me?<Link to="/contact"> React out.</Link></p>
+            <p>Want to work with me?<Link to="/contact"> Reach out.</Link></p>
           </div>
           <div className={image}>
             <Profile />
