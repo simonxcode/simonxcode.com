@@ -17,10 +17,10 @@ const ContactPage = () => {
         </div>
         <div className={social}>
           <ul>
-            <li><a href='https://www.github.com/simonxcode'><FontAwesomeIcon icon={faGithub} className={icon}/></a></li>
-            <li><a href='https://www.linkedin.com/in/simonxcode/'><FontAwesomeIcon icon={faLinkedinIn} className={icon}/></a></li>
-            <li><a href='https://www.twitter.com/simonxcode'><FontAwesomeIcon icon={faTwitter} className={icon}/></a></li>
-            <li><a href='https://www.dev.to/simonxcode'><FontAwesomeIcon icon={faDev} className={icon}/></a></li>
+            <li><a href='https://www.github.com/simonxcode' aria-label="Github icon"><FontAwesomeIcon icon={faGithub} className={icon}/></a></li>
+            <li><a href='https://www.linkedin.com/in/simonxcode/' aria-label="LinkedIn icon"><FontAwesomeIcon icon={faLinkedinIn} className={icon}/></a></li>
+            <li><a href='https://www.twitter.com/simonxcode' aria-label="Twitter icon"><FontAwesomeIcon icon={faTwitter} className={icon}/></a></li>
+            <li><a href='https://www.dev.to/simonxcode' aria-label="Dev.to icon"><FontAwesomeIcon icon={faDev} className={icon}/></a></li>
           </ul>
         </div>
       </Layout>
