@@ -3,7 +3,7 @@ import Layout from '../components/layout'
 import Head from '../components/head'
 import { title, subTitle, social, icon } from './contact.module.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub, faLinkedinIn, faTwitter } from '@fortawesome/free-brands-svg-icons' 
+import { faGithub, faLinkedinIn, faTwitter, faDev } from '@fortawesome/free-brands-svg-icons' 
 
 const ContactPage = () => {
   return (
@@ -20,6 +20,7 @@ const ContactPage = () => {
             <li><a href='https://www.github.com/simonxcode'><FontAwesomeIcon icon={faGithub} className={icon}/></a></li>
             <li><a href='https://www.linkedin.com/in/simonxcode/'><FontAwesomeIcon icon={faLinkedinIn} className={icon}/></a></li>
             <li><a href='https://www.twitter.com/simonxcode'><FontAwesomeIcon icon={faTwitter} className={icon}/></a></li>
+            <li><a href='https://www.dev.to/simonxcode'><FontAwesomeIcon icon={faDev} className={icon}/></a></li>
           </ul>
         </div>
       </Layout>
