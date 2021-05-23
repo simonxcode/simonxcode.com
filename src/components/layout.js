@@ -1,19 +1,19 @@
 import React from 'react'
 import Header from './header'
 import '../styles/index.scss'
-import layoutStyle from './layout.module.scss'
+import { container, sidebar, content } from './layout.module.scss'
 import Sidebar from './sidebar'
 import Footer from './footer'
 import 'normalize.css/normalize.css'
 
 const Layout = (props) => {
   return (
-    <div className={layoutStyle.container}>
+    <div className={container}>
       <Sidebar />
-       <div className={layoutStyle.sidebar}>
+       <div className={sidebar}>
         <Header />
       </div>
-      <div className={layoutStyle.content}>
+      <div className={content}>
         {props.children}
       </div>
       <div>

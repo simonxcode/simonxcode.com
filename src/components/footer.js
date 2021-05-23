@@ -1,8 +1,8 @@
 import React from 'react'
 import { graphql, useStaticQuery } from 'gatsby'
-import footerStyle from './footer.module.scss'
+import { footer, social, icon } from './footer.module.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub, faLinkedinIn, faTwitter } from '@fortawesome/free-brands-svg-icons' 
+import { faGithub, faLinkedinIn, faTwitter, faDev } from '@fortawesome/free-brands-svg-icons' 
 
 const Footer  = () => {
   const data = useStaticQuery(graphql`
@@ -15,15 +15,16 @@ const Footer  = () => {
     }
   `)
   return (
-    <div className={footerStyle.footer}>
-      <div className={footerStyle.social}>
+    <div className={footer}>
+      <div className={social}>
         <ul>
-          <li><a href='https://www.github.com/simonxcode'><FontAwesomeIcon icon={faGithub} className={footerStyle.icon} /></a></li>
-          <li><a href='https://www.linkedin.com/in/simonxcode/'><FontAwesomeIcon icon={faLinkedinIn} className={footerStyle.icon} /></a></li>
-          <li><a href='https://www.twitter.com/simonxcode'><FontAwesomeIcon icon={faTwitter} className={footerStyle.icon} /></a></li>
+          <li><a href='https://www.github.com/simonxcode' aria-label="Github icon"><FontAwesomeIcon icon={faGithub} className={icon} /></a></li>
+          <li><a href='https://www.linkedin.com/in/simonxcode/' aria-label="LinkedIn icon"><FontAwesomeIcon icon={faLinkedinIn} className={icon} /></a></li>
+          <li><a href='https://www.twitter.com/simonxcode' aria-label="Twitter icon"><FontAwesomeIcon icon={faTwitter} className={icon} /></a></li>
+          <li><a href='https://www.dev.to/simonxcode' aria-label="Dev.to icon"><FontAwesomeIcon icon={faDev} className={icon} /></a></li>
         </ul>   
       </div>
-      <p>{data.site.siteMetadata.author} © 2020</p>
+      <p>{data.site.siteMetadata.author} © 2021</p>
     </div>
   )
 }

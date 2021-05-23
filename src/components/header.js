@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link, graphql, useStaticQuery } from 'gatsby'
-import headerStyles from './header.module.scss'
+import { header, brand, tagLine, navList, navItem, activeNavItem, footer } from './header.module.scss'
 
 const Header = () => {
   const data = useStaticQuery(graphql`
@@ -16,36 +16,36 @@ const Header = () => {
   return (
     <div>
     <div>
-        <header className={headerStyles.header}>
-        <Link className={headerStyles.brand} to="/">
+        <header className={header}>
+        <Link className={brand} to="/">
           {data.site.siteMetadata.title}
-          <p className={headerStyles.tagline}>always a student</p>
+          <p className={tagLine}>always a student</p>
         </Link>
           </header>
       </div>
     <div>
       <nav>
-        <ul className={headerStyles.navList}>
+        <ul className={navList}>
           <li>
-            <Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/">home</Link>
+            <Link className={navItem} activeClassName={activeNavItem} to="/">home</Link>
           </li>
           <li>
-            <Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/portfolio">portfolio</Link>
+            <Link className={navItem} activeClassName={activeNavItem} to="/portfolio">portfolio</Link>
           </li>
           <li>
-            <Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/blog">blog</Link>
+            <Link className={navItem} activeClassName={activeNavItem} to="/blog">blog</Link>
           </li>
           <li>
-            <Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/about">about</Link>
+            <Link className={navItem} activeClassName={activeNavItem} to="/about">about</Link>
           </li>
           <li>
-            <Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/contact">contact</Link>
+            <Link className={navItem} activeClassName={activeNavItem} to="/contact">contact</Link>
           </li>
         </ul>
       </nav>  
     </div>
-      <div className={headerStyles.footer}>
-        <p>{data.site.siteMetadata.author} © 2020</p>
+      <div className={footer}>
+        <p>{data.site.siteMetadata.author} © 2021</p>
       </div>
     </div>
   )
