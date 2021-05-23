@@ -6,8 +6,8 @@
 
 <p>Personal website sharing my latest work and writings at <a href="https://www.simonxcode.com">simonxcode</a>.
 Built with 
-  <a href="https://www.gatsbyjs.com/">Gatsby<a>, blog managed by
-  <a href="https://www.contentful.com/"> Contentful</a> and site hosted on 
+  <a href="https://www.gatsbyjs.com/">Gatsby<a>, currently blogging on
+  <a href="https://www.dev.to/">Dev.to</a> and site hosted on 
   <a href="https://www.netlify.com/">Netlify</a>.
 </p>
 
