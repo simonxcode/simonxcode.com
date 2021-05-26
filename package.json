@@ -1,4 +1,6 @@
-{
+{ "engines": {
+  "node": ">=12.13.0"
+},
   "name": "simonxcode.com",
   "private": true,
   "description": "Personal website sharing my latest work and writings",
