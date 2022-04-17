@@ -50,7 +50,7 @@ const ProjectPage = () => {
         <div className={display}>
           <div className={description}>
             <h3>In the Pan</h3>
-            <p>Search over 2.3 million recipes to help you generate ideas for your next meal.
+            <p>Search over 2.3 million recipes to help generate ideas for your next meal.
               Project was part of a collaborative remote learning cohort.
               Built with Vue, VueX, Edamam API and styled with Vuetify.</p>
             <p><a href="https://github.com/chingu-voyages/v8-geckos-team-11">Repository</a></p>
