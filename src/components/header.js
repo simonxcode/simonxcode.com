@@ -45,7 +45,7 @@ const Header = () => {
       </nav>  
     </div>
       <div className={footer}>
-        <p>{data.site.siteMetadata.author} © 2021</p>
+        <p>{data.site.siteMetadata.author} © 2022</p>
       </div>
     </div>
   )
