@@ -24,7 +24,7 @@ const Footer  = () => {
           <li><a href='https://www.dev.to/simonxcode' aria-label="Dev.to icon"><FontAwesomeIcon icon={faDev} className={icon} /></a></li>
         </ul>   
       </div>
-      <p>{data.site.siteMetadata.author} © 2021</p>
+      <p>{data.site.siteMetadata.author} © 2022</p>
     </div>
   )
 }
