@@ -18,7 +18,7 @@ const ProjectPage = () => {
         <div className={display}>
           <div className={description}>
             <h3>Clutch Weather</h3>
-            <p>Search over 200,000 cities in the world to get accurate and current weather information. 
+            <p>Search over 200,000 cities in the world and get reliable current weather information. 
             Built with React, Express, OpenWeather API and styled with Tailwind. 
             </p>
             <p><a href="https://github.com/simonxcode/clutch-weather-app">Repository</a></p>

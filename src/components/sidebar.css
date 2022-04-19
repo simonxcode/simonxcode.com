@@ -1,5 +1,5 @@
 .bm-burger-button {
-  border-color: #8db0f2;
+  border-color: #bbd0f7;
   width: 2.5rem;
   height: 1.25rem;
   bottom: 1.25rem;
@@ -9,12 +9,12 @@
 }
 
 .bm-burger-bars {
-  background: #8db0f2;
+  background: #bbd0f7;
   width: 1.75rem;
 }
 
 .bm-burger-bars-hover {
-  background: #33ccff;
+  background: #66d9ff;
 }
 
 .bm-cross-button {
@@ -24,11 +24,11 @@
 }
 
 .bm-cross {
-  background: #8db0f2;
+  background: #bbd0f7;
 }
 
 .bm-menu {
-  background:#09092a;
+  background: #09092a;
   width: 12.5rem;
   padding: 2rem 1rem;
 }

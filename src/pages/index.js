@@ -11,7 +11,7 @@ const HomePage = () => {
         <Head title="home" />
         <div>
           <div>
-            <p className={greeting}>Hello, I 'm Simon.</p>
+            <p className={greeting}>Hello, I'm Simon.</p>
           </div>
           <div>
             <h1>I like to help build impactful solutions for humans.</h1>
