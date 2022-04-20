@@ -22,4 +22,3 @@ const Chirpper = () => {
 }
 
 export default Chirpper
-

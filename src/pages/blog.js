@@ -9,9 +9,7 @@ const Blog = () => {
       <Layout>
         <Head title="blog" />
         <p className={title}>Blog</p>
-        <div className={subTitle}>
-          <p>Check out my <a href='https://dev.to/simonxcode'>Dev.to </a>to read some of my latest writings.</p>
-        </div>
+        <p>Check out my <a href='https://dev.to/simonxcode'>Dev.to </a>to read some of my latest writings.</p>
       </Layout>
     </div>
   )
