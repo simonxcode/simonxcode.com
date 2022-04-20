@@ -1,6 +1,6 @@
 import React from 'react'
 import Layout from '../components/layout'
-import {title, subTitle, display, description, image } from "./portfolio.module.scss"
+import {title, subTitle, display, description, image } from './portfolio.module.scss'
 import Head from '../components/head'
 import ClutchWeather from '../components/gatsby-image/ClutchWeather'
 import ScoreKeeper from '../components/gatsby-image/ScoreKeeper'

@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import Layout from '../components/layout'
-import { greeting, summary, link } from './index.module.scss' 
+import { greeting, link } from './index.module.scss' 
 import Head from '../components/head'
 
 const HomePage = () => {

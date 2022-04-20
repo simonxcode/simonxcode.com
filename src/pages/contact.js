@@ -1,7 +1,7 @@
 import React from 'react'
 import Layout from '../components/layout'
 import Head from '../components/head'
-import { title, subTitle, social, icon } from './contact.module.scss'
+import { title, social, icon } from './contact.module.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faLinkedinIn, faTwitter, faDev } from '@fortawesome/free-brands-svg-icons' 
 

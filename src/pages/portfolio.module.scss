@@ -29,8 +29,12 @@ p {
   margin-bottom: 10rem;
   max-width: 15rem;
   flex: 50%;
-  box-shadow: 0.3125rem 0.625rem #8db0f2
+  box-shadow: 0.3125rem 0.625rem #8db0f2;
+  border-radius: 2%;
+}
 
+.gatsbyImage {
+  border-radius: 2%;
 }
 
 @media screen and (max-width: 55rem) { 
@@ -45,5 +49,3 @@ p {
     margin-bottom: 5rem;
   }
 }
-
-

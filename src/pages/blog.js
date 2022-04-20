@@ -1,6 +1,6 @@
 import React from 'react'
 import Layout from '../components/layout'
-import { title, subTitle } from './blog.module.scss'
+import { title } from './blog.module.scss'
 import Head from '../components/head'
 
 const Blog = () => {
