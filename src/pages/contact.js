@@ -1,7 +1,7 @@
 import React from 'react'
 import Layout from '../components/layout'
 import Head from '../components/head'
-import { title, subTitle, social, icon } from './contact.module.scss'
+import { title, social, icon } from './contact.module.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faLinkedinIn, faTwitter, faDev } from '@fortawesome/free-brands-svg-icons' 
 
@@ -12,9 +12,7 @@ const ContactPage = () => {
         <Head title="contact" />
         <p className={title}>Contact</p>
         <h1>Drop a line or just say hello.</h1>
-        <div className={subTitle}>
-          <p>Now lets get social.<a href='https://mail.google.com/mail/?view=cm&fs=1&to=simonxiong11@gmail.com'> Emails</a> are cool also.</p>        
-        </div>
+        <p>Now lets get social.<a href='https://mail.google.com/mail/?view=cm&fs=1&to=simonxiong11@gmail.com'> Emails</a> are cool also.</p>        
         <div className={social}>
           <ul>
             <li><a href='https://www.github.com/simonxcode' aria-label="Github icon"><FontAwesomeIcon icon={faGithub} className={icon}/></a></li>

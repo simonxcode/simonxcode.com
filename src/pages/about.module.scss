@@ -1,5 +1,5 @@
 .title {
-  color: #33ccff;
+  color: #66d9ff;
   padding-top: 6rem;
 }
 
@@ -11,18 +11,17 @@
 
 .summary {
   display: inline-block;
-  padding-left: .5rem;
   max-width: 50%;
   flex: 50%;
 }
 
 .image {
   display: inline-block;
-  margin-bottom: 8rem;
-  margin-left: 1rem;
+  margin: 0 0 8rem 1rem;
   max-width: 15rem;
   flex: 50%;
   box-shadow: 0.3125rem 0.625rem #8ea0c2;
+  border-radius: 2%;
 }
 
 @media screen and (max-width: 55rem) {
