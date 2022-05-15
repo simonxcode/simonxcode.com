@@ -20,6 +20,7 @@ const ProjectPage = () => {
             <h3>Clutch Weather</h3>
             <p>Search over 200,000 cities in the world and get reliable current weather information. 
             Built with React, Express, OpenWeather API and styled with Tailwind. 
+            Project is maintained with Cypress testing framework and Github Actions. 
             </p>
             <p><a href="https://github.com/simonxcode/clutch-weather-app">Repository</a></p>
           </div>
@@ -84,7 +85,7 @@ const ProjectPage = () => {
           <div className={description}>
             <h3>Tic Tac Toe</h3>
             <p>The classic paper-and-pencil game where players have to match 3 in-a-row to win.
-            Built with React and styled with Material-UI.</p>
+            Built with React and styled with Material UI.</p>
             <p>
               <a href="https://github.com/simonxcode/tictactoe-react"> Repository </a>
             </p>
