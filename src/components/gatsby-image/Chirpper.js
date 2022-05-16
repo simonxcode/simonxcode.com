@@ -1,6 +1,6 @@
 import React from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
-import Img from 'gatsby-image'
+import { GatsbyImage } from 'gatsby-plugin-image'
 import { gatsbyImage } from '../../pages/portfolio.module.scss'
 
 const Chirpper = () => {
@@ -8,18 +8,16 @@ const Chirpper = () => {
     query {
       placeholderImage: file(relativePath: { eq: "chirpper.jpg" }) {
         childImageSharp {
-          fluid(maxWidth: 1280) {
-            ...GatsbyImageSharpFluid
-          }
+          gatsbyImageData(layout: FULL_WIDTH)
         }
       }
     } 
   `)
 
-  if(!data?.placeholderImage?.childImageSharp?.fluid) {
+  if(!data?.placeholderImage?.childImageSharp?.gatsbyImageData) {
     return <div>Picture not found</div>
   }
-  return <Img className={gatsbyImage} fluid={data.placeholderImage.childImageSharp.fluid} />
+  return <GatsbyImage className={gatsbyImage} image={data.placeholderImage.childImageSharp.gatsbyImageData} alt='chirpper screenshot' />
 }
 
 export default Chirpper
