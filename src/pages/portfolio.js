@@ -74,7 +74,7 @@ const ProjectPage = () => {
             <p><a href="https://github.com/chingu-voyage5/Geckos-Team-16">Repository</a></p>
           </div>
           <div className={image}>
-            <a a href = "https://chingu-chirpper.herokuapp.com/" >
+            <a href="https://chingu-chirpper.herokuapp.com/" >
               <div>
                 <Chirpper />
               </div>
