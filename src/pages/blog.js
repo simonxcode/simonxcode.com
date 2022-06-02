@@ -5,7 +5,7 @@ import { title } from './blog.module.scss'
 import Head from '../components/head'
 
 const Blog = () => {
-
+  
   const data = useStaticQuery(graphql`
     query {
       allMarkdownRemark {
