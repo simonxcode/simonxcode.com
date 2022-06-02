@@ -4,6 +4,7 @@ import { GatsbyImage } from 'gatsby-plugin-image'
 import { gatsbyImage } from '../../pages/portfolio.module.scss'
 
 const Chirpper = () => {
+  
   const data = useStaticQuery(graphql`
     query {
       placeholderImage: file(relativePath: { eq: "chirpper.jpg" }) {

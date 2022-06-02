@@ -5,6 +5,7 @@ import { header, brand, tagLine, navList, navItem, activeNavItem } from './heade
 import './sidebar.css'
 
 const Sidebar = () => {
+
   const data = useStaticQuery(graphql`
     query {
       site {
@@ -15,6 +16,7 @@ const Sidebar = () => {
       }
     }
   `)
+
   return (
     <div>
       <Menu disableAutoFocus>

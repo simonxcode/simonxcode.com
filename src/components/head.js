@@ -5,6 +5,7 @@ import favicon from '../images/favicon.ico'
 
 
 const Head = ({ title }) => {
+
   const data = useStaticQuery(graphql`
     query {
       site {
@@ -14,6 +15,7 @@ const Head = ({ title }) => {
       }
     }
   `)
+
   return (
     <Helmet>
       <title>{`${title} | ${data.site.siteMetadata.title}`}</title>

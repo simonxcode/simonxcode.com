@@ -4,6 +4,7 @@ import { GatsbyImage } from 'gatsby-plugin-image'
 import { gatsbyImage } from '../../pages/portfolio.module.scss'
 
 const Profile = () => {
+
   const data = useStaticQuery(graphql`
     query {
       placeholderImage: file(relativePath: { eq: "profile.jpg" }) {
@@ -17,6 +18,7 @@ const Profile = () => {
   if(!data?.placeholderImage?.childImageSharp?.gatsbyImageData) {
     return <div>Picture not found</div>
   }
+  
   return <GatsbyImage className={gatsbyImage} image={data.placeholderImage.childImageSharp.gatsbyImageData} alt='profile photo' />
 }
 
