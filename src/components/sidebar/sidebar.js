@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link, graphql, useStaticQuery } from 'gatsby'
 import { slide as Menu } from 'react-burger-menu'
-import { header, brand, tagLine, navList, navItem, activeNavItem } from './header.module.scss'
+import { header, brand, tagLine, navList, navItem, activeNavItem } from '../header/header.module.scss'
 import './sidebar.css'
 
 const Sidebar = () => {
