@@ -1,11 +1,29 @@
 import React from 'react'
+import { graphql } from 'gatsby'
 import Layout from '../components/layout'
-import { title } from '../pages/blog.module.scss'
 
-const BlogPost = () => {
+export const query = graphql`
+  query($slug: String!) {
+    markdownRemark(fields: { slug: { eq: $slug } }) {
+      frontmatter {
+        title
+        date
+      }
+      html
+    }
+  }
+`
+
+const blogContent = {
+  color: "#8db0f2"
+}
+
+const BlogPost = (props) => {
   return (
     <Layout>
-      <p className={title}>This is a blog template</p>
+      <h1>{props.data.markdownRemark.frontmatter.title}</h1>
+      <p>{props.data.markdownRemark.frontmatter.date}</p>
+      <div style={ blogContent } dangerouslySetInnerHTML={{ __html: props.data.markdownRemark.html }}></div>
     </Layout>
   )
 }
