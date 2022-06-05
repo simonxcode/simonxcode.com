@@ -15,7 +15,8 @@ export const query = graphql`
 `
 
 const blogContent = {
-  color: "#8db0f2"
+  color: "#8db0f2",
+  float: "left"
 }
 
 const BlogPost = (props) => {

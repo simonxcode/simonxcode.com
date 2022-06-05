@@ -5,6 +5,8 @@ date: "2022-06-01"
 
 How to add Contentful to Gatsby site. 
 
+![Joshua Tree](./joshuaTree.png)
+
 ## Topics Covered
 
 1. install Contentful
