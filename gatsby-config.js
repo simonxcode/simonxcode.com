@@ -27,10 +27,18 @@ module.exports = {
     'gatsby-plugin-sass',
     {
       resolve: 'gatsby-source-filesystem',
-        options: {
-          name: 'src',
-          path: `${__dirname}/src/`
-        },
+      options: {
+        name: 'src',
+        path: `${__dirname}/src/`
+      },
+    },
+    {
+      resolve: 'gatsby-source-sanity',
+      options: {
+        projectId: 'qn3ed0he',
+        dataset: 'production',
+        watchMode: true,
       }
+    }
   ],
 }
