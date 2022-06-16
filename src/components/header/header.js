@@ -3,6 +3,7 @@ import { Link, graphql, useStaticQuery } from 'gatsby'
 import { header, brand, tagLine, navList, navItem, activeNavItem, footer } from './header.module.scss'
 
 const Header = () => {
+
   const data = useStaticQuery(graphql`
     query {
       site {
@@ -13,6 +14,7 @@ const Header = () => {
       }
     }
   `)
+
   return (
     <div>
     <div>
