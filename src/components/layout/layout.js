@@ -1,9 +1,9 @@
 import React from 'react'
-import Header from './header'
-import '../styles/index.scss'
+import Header from '../header'
+import '../../styles/index.scss'
 import { container, sidebar, content } from './layout.module.scss'
-import Sidebar from './sidebar'
-import Footer from './footer'
+import Sidebar from '../sidebar'
+import Footer from '../footer'
 import 'normalize.css/normalize.css'
 
 const Layout = (props) => {

@@ -4,6 +4,7 @@ import { GatsbyImage } from 'gatsby-plugin-image'
 import { gatsbyImage } from '../../pages/portfolio.module.scss'
 
 const InThePan = () => {
+  
   const data = useStaticQuery(graphql`
     query {
       placeholderImage: file(relativePath: { eq: "inThePan.jpg" }) {

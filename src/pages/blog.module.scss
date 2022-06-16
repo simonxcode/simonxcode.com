@@ -2,3 +2,19 @@
   color: #66d9ff;
   padding-top: 6rem;
 }
+
+.posts {
+  margin: 0;
+}
+
+.post {
+  margin-bottom: 1rem 0;
+
+  h1 {
+    margin-bottom: 0;
+  }
+
+  p {
+    font-style: italic;
+  }
+}

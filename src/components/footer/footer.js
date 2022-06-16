@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faLinkedinIn, faTwitter, faDev } from '@fortawesome/free-brands-svg-icons' 
 
 const Footer  = () => {
+
   const data = useStaticQuery(graphql`
     query {
       site {
@@ -14,6 +15,7 @@ const Footer  = () => {
       }
     }
   `)
+
   return (
     <div className={footer}>
       <div className={social}>
