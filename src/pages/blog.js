@@ -16,7 +16,7 @@ const Blog = () => {
             slug {
               current
             }
-            publishedAt(formatString: "MMMM Do YYYY")
+            publishedAt(formatString: "MMM Do, YYYY")
           }
         }
       }
