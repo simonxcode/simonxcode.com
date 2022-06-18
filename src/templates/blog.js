@@ -4,8 +4,8 @@ import Layout from '../components/layout'
 import { PortableText } from '@portabletext/react'
 
 export const query = graphql`
-  query {
-    sanityPost {
+  query($id: String!) {
+    sanityPost(id: {eq: $id}){
       id
       slug {
         current

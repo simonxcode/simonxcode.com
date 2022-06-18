@@ -11,7 +11,7 @@ const Blog = () => {
       allSanityPost(sort: { fields: publishedAt, order: DESC }) {
         edges {
           node {
-            _id
+            id
             title
             slug {
               current
@@ -24,7 +24,7 @@ const Blog = () => {
   `)
   
   return (
-    <div>
+    <div> 
       <Layout>
         <Head title="blog" />
         <p className={title}>Blog</p>
