@@ -1,7 +1,8 @@
 import React from 'react'
 import { graphql } from 'gatsby'
-import Layout from '../components/layout'
 import { PortableText } from '@portabletext/react'
+import Layout from '../components/layout'
+import components from './components'
 
 export const query = graphql`
   query($id: String!) {
@@ -22,7 +23,7 @@ const BlogPost = ({ data }) => {
     <Layout>
       <h1>{data.sanityPost.title}</h1>
       <p>{data.sanityPost.publishedAt}</p>
-      <PortableText value={data.sanityPost._rawBody} />
+      <PortableText value={data.sanityPost._rawBody} components={components} />
     </Layout>
   )
 }
