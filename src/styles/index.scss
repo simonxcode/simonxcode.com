@@ -137,6 +137,7 @@ pre,
 samp {
   font-family: monospace, monospace;
   font-size: 1em;
+  color: #abb2bf;
 }
 
 figure {
@@ -703,12 +704,12 @@ code {
   font-family: "SFMono-Regular", Consolas, "Roboto Mono", "Droid Sans Mono",
     "Liberation Mono", Menlo, Courier, monospace;
   padding: 0.05em 0.2em;
-
 }
 
 pre code {
   background: none;
   line-height: 1.42;
+  font-size: 16px;
 }
 
 code:before,
