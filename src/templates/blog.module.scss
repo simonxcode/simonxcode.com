@@ -1,10 +1,25 @@
+h1 {
+  margin-bottom: 0;
+}
+
 .blogContent {
+
+  h1 {
+    margin-bottom: 0; 
+  }
+  
   flex-grow: 1; 
-  width: 75%;
+  max-width: 38rem;
   padding: 1rem 1rem;
   overflow: auto;
   z-index: 1;
   min-height: 100vh;
+}
+
+@media screen and (max-width: 68rem) {
+  .blogContent {
+    width: 75%;
+  }
 }
 
 @media screen and (max-width: 55rem) {
