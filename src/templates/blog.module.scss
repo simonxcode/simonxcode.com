@@ -16,6 +16,10 @@ h1 {
   min-height: 100vh;
 }
 
+img, figure {
+  margin: 0;
+}
+
 @media screen and (max-width: 68rem) {
   .blogContent {
     width: 75%;
