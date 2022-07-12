@@ -31,7 +31,7 @@ const Blog = () => {
         <ol className={posts}>
           {data.allSanityPost.edges.map((edge) => {
             return (
-              <li className={post} key={edge.node._id}>
+              <li className={post} key={edge.node.id}>
                 <Link to={`/blog/${edge.node.slug.current}`}>
                   <h1>{edge.node.title}</h1>
                   <p>{edge.node.publishedAt}</p>

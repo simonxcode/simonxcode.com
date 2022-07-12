@@ -1,0 +1,35 @@
+h1 {
+  margin-bottom: 0;
+}
+
+.blogContent {
+
+  h1 {
+    margin-bottom: 0; 
+  }
+  
+  flex-grow: 1; 
+  max-width: 38rem;
+  padding: 1rem 1rem;
+  overflow: auto;
+  z-index: 1;
+  min-height: 100vh;
+}
+
+img, figure {
+  margin: 0;
+}
+
+@media screen and (max-width: 68rem) {
+  .blogContent {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 55rem) {
+  .blogContent {
+    width: 100%;
+    margin: 1.5rem 0;
+    padding: 0rem;
+  }
+}

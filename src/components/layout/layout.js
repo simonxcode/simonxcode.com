@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from '../header'
 import '../../styles/index.scss'
-import { container, sidebar, content } from './layout.module.scss'
+import { container, sidebar, content, blankNav } from './layout.module.scss'
 import Sidebar from '../sidebar'
 import Footer from '../footer'
 import 'normalize.css/normalize.css'
@@ -9,6 +9,7 @@ import 'normalize.css/normalize.css'
 const Layout = (props) => {
   return (
     <div className={container}>
+      <div className={blankNav} />
       <Sidebar />
        <div className={sidebar}>
         <Header />
